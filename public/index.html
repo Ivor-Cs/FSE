@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+    <title>Chatroom</title>
+  </head>
+  <body>
+      <ul class="pages">
+        <li class="chat page">
+          <ul id="messages"></ul>
+          <form action="">
+            <input class="inputMessage" id="m" autocomplete="off" /><button id="send">Send</button>
+          </form>
+        </li>
+        <li class="login page">
+          <div class="form">
+            <h3 class="title">Nickname:</h3>
+            <input class="usernameInput" type="text" maxlength="14" />
+          </div>
+        </li>
+      </ul>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="/main.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "chatroom",
+  "version": "0.0.1",
+  "description": "A multi-user chatroom",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.6.0",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivor-Cs/FSE.git"
+  },
+  "author": "Ivor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivor-Cs/FSE/issues"
+  },
+  "homepage": "https://github.com/Ivor-Cs/FSE#readme"
+}
